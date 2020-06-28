@@ -1,15 +1,3 @@
-/*
- * Family Name: Sabhad
- * Give Name: Gopal
- * Student #: 215922420
- * CSE Email: Gopal25@my.yorku.ca
- * 
- * Family Name: Patel
- * Give Name: Kanisha
- * Student #: 216006595
- * CSE Email: kani1999@my.yorku.ca
-*/
-
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.charset.Charset;

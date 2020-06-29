@@ -7,8 +7,10 @@ Treewalker file includes all operations on the binary tree-like rotation of tree
 
 Methods involve:
 
-1. **public Position root(Position position):**  Returns the root position(current) of a node. If it's not there, it will create a node.
-2. **public Position parent(Position position:** Returns the parent position of a node at the current position. If it's not there, it will create a node. It throws an exception if position id invalid.
+1. **public Position root(Position position):**  
+     Returns the root position(current) of a node. If it's not there, it will create a node.
+2. **public Position parent(Position position:** 
+     Returns the parent position of a node at the current position. If it's not there, it will create a node. It throws an exception if position id invalid.
 3. **public Position leftChild(Position position):** Returns the left child of a node at the current position. If it's not there, it will create a node. 
 4. **public Position rightChild(Position position):** Returns the left child of a node at the current position. If it's not there, it will create a node
 5. **public Position rotateR(Position position):** It rotates a node in the right direction raising its left child to its position and lowering itself to the right.

@@ -247,7 +247,7 @@ public class TreeWalker extends IOTree {
 	/* Deletes current when no right child */
 	/* Parent adopts left child            */
 	
-	private Position deleteNoRight(Position position)  
+	public Position deleteNoRight(Position position)  
 	{
 		if( super.rightChild(position)==null) 
 		{
@@ -275,7 +275,7 @@ public class TreeWalker extends IOTree {
 	/* Deletes current when no left child */
 	/* Parent adopts right child            */
 
-	private Position deleteNoLeft(Position position)  
+	public Position deleteNoLeft(Position position)  
 	{
 		if( super.leftChild(position)==null) 
 		{
